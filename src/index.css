@@ -19,7 +19,7 @@ textarea {
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
-  margin: 0;
+  margin-left: 80px;
 }
 
 .app-header__title {
