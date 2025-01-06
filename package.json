@@ -16,12 +16,11 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-
+    "eject": "react-scripts eject",
+    "start": "react-scripts start --openssl-legacy-provider"
   },
   "browserslist": [
     ">0.2%",
@@ -30,4 +29,3 @@
     "not op_mini all"
   ]
 }
-
