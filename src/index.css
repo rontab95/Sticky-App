@@ -50,7 +50,7 @@ textarea {
   cursor: pointer;
   padding: 8px;
   font-weight: bolder;
-  background-color: #eee;
+  background-color: #65e35b;
   outline: none;
 }
 
@@ -73,7 +73,7 @@ textarea {
   font-family: "Permanent Marker", cursive;
   width: 100%;
   padding: 8px 14px;
-  background: transparent;
+  background: yellow;
 }
 
 .note__title {
@@ -91,11 +91,77 @@ textarea {
   top: 0px;
   right: 0px;
   font-size: 20px;
-  color: lightgrey;
+  color: red;
   padding: 5px;
 }
 
 .note__delete:hover {
   color: black;
   cursor: pointer;
+}
+
+.a_side {
+  padding-left: 10rem;
+}
+
+/* Extra small devices (phones, 0px and up) */
+@media (max-width: 575.98px) {
+  .a_side
+  {
+   padding-left: 4rem; 
+  }
+
+  .header-title h1{
+
+   /* padding-left: 3rem;  */
+   text-align:center;
+
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .header-title{
+
+    text-align:center;
+  }
+  .a_side {
+    padding-left: 6rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header-title{
+
+    text-align:center;
+  }
+  .a_side {
+    padding-left: 6rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  .header-title{
+
+    text-align:center;
+  }
+  .a_side {
+    padding-left: 6rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* Styles for extra large screens */
+
+  .header-title{
+
+    text-align:center;
+  }
+  .a_side {
+    padding-left: 6rem;
+  }
 }

@@ -6,8 +6,9 @@ const Header = (props) => {
   };
   return (
     <header>
-      <h1 className="add__header__title">Super Sticky Notes</h1>
-      <aside>
+     <div class ="header-title"> <h1 >Super Sticky Notes</h1></div>
+      <aside >
+        <div class="a_side">
         <button className="add-new" onClick={props.addNote}>
           + New Note
         </button>
@@ -18,6 +19,7 @@ const Header = (props) => {
           value={props.searchText}
           onChange={callSearch}
         />
+        </div>
       </aside>
     </header>
   );
