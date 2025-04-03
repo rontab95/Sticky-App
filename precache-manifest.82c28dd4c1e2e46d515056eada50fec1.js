@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "ebfd366856b85f2d9f7f",
-    "url": "/Sticky-App/static/css/main.6ac2c8a3.chunk.css"
+    "revision": "9ccf4dad3af1a8068a92",
+    "url": "/Sticky-App/static/css/main.e295ab96.chunk.css"
   },
   {
-    "revision": "ebfd366856b85f2d9f7f",
-    "url": "/Sticky-App/static/js/main.0aa583a4.chunk.js"
+    "revision": "9ccf4dad3af1a8068a92",
+    "url": "/Sticky-App/static/js/main.a03c1535.chunk.js"
   },
   {
     "revision": "deec573342ab5eeb915a",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/Sticky-App/static/js/2.da757658.chunk.js"
   },
   {
-    "revision": "520fe8486e75a0f91a5ee9f194b2fabc",
+    "revision": "1df98edd87b2c4b1f9a8c5aa8f60cae0",
     "url": "/Sticky-App/index.html"
   }
 ];
